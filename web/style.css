@@ -1,0 +1,110 @@
+body {
+    background-color: #fff0f5;
+    font-family: Arial, sans-serif;
+    color: #80566b;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header{
+    background-color: #ffd6e5;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1{
+    color: #b85c83;
+    font-size: 32px;
+}
+
+nav{
+    margin: 15px;
+}
+
+nav a{
+    color: #b85c83;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+nav a:hover{
+    background-color: #f4a6c3;
+    color: white;
+}
+
+main{
+    background-color:white;
+    max-width: 750px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px #f2c6d8;
+}
+
+h1{
+    color: #b85c83;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.picture {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #ffc9dc;
+    margin: 20px auto;
+    display: block;
+}
+
+.info{
+    background-color: #fff0f5;
+    padding: 20px;
+    margin: 25px 0;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.card{
+    padding: 20px; 
+}
+.hobbies {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 25px 0;
+}
+.hobby{
+    background-color: #ffe4ee;
+    padding: 15px 20px;
+    border-radius: 15px;
+    color: #a84f77;
+}
+
+.contact{
+    background-color: #fff0f5;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 15px;
+}
+.button{
+    display: inline-block;
+    background-color: #f4a6c3;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.buttom:hover{
+    background-color: #d47fa3;
+}
